@@ -7,8 +7,8 @@ body {
 }
 .nav {
     display: flex;
-    background-color: rgb(174, 239, 243);
-    color: rgb(194, 12, 12);
+    background-color: rgb(230, 112, 145);
+    color: rgb(4, 98, 174);
     height: 60px;
     justify-content: space-between;
 }

@@ -7,7 +7,7 @@ function AddTodo(props) {
         padding:"30px",
         textAlign:"center",
         margin:"50px auto 20px",
-        backgroundColor: "pink",
+        backgroundColor:"cadetblue",
         borderRadius:"10px"
     }
     const [state,setState] = useState("");
