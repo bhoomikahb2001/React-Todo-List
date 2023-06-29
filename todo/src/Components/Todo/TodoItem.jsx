@@ -1,6 +1,7 @@
 import React from 'react';
 
 function TodoItem({ todoitem, deleteItem, handleToggle }) {
+    
     return (
         <div>
             {todoitem.map((item,index)=>{
@@ -10,7 +11,7 @@ function TodoItem({ todoitem, deleteItem, handleToggle }) {
                         justifyContent:"center",
                         alignItems:"center"
                         }}
-                     >
+                        >
                         <h4>{item.title}</h4>&nbsp;&nbsp;&nbsp;&nbsp;
                         <h5 style={{color:"red"}}>
                             {item.status ? "Completed" : "Not Completed"}

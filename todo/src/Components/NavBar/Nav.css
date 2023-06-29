@@ -1,10 +1,14 @@
 body {
     margin: 0;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .nav {
     display: flex;
-    background-color: rgb(237, 232, 232);
-    color: rgb(155, 34, 34);
+    background-color: rgb(174, 239, 243);
+    color: rgb(194, 12, 12);
     height: 60px;
     justify-content: space-between;
 }
